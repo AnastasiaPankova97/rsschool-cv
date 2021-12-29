@@ -23,9 +23,10 @@ function multiply(a, b) {
 ```
 
 ## Work experience ##
-Analyst - 2 years. </br>
+Analyst - 2 years.
+
 My portfolio:
-- CV - https://github.com/AnastasiaPankova97/rsschool-cv
+- [CV](https://github.com/AnastasiaPankova97/rsschool-cv) - My markdown CV
 
 
 ## Education ##
