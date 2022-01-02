@@ -1,4 +1,71 @@
-@font-face {
-    font-family: Quicsand;
-     src: url("assets\fonts\Quicksand\static\Quicksand-Medium.ttf");
-   }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:peachpuff;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-block {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.name-block {
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-right: 20%;
+}
+
+.name-block > h1 > p {
+  font-size: 2em;
+}
+
+.first-name {
+  color: chocolate;
+}
+
+.job-name {
+  font-size: 2em;
+}
+
+.profile-image {
+  margin-left: 40%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+.line {
+  width: 100%;
+  height: 10px;
+  background-color: chocolate;
+}
+
+.main {
+  display: flex;
+}
+
+.skills {
+  background-color: darkgrey;
+  width: 50%;
+
+}
+
+.about-me {
+  background-color: darkkhaki;
+  width: 50%;
+}
