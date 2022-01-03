@@ -73,6 +73,10 @@ body {
   justify-content: center;
 }
 
+.skills-list {
+  display: flex;
+}
+
 .first-name {
   color: chocolate;
 }
@@ -156,10 +160,6 @@ body {
   background-color: chocolate;
 }
 
-.table-skills {
-  display: flex;
-}
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -191,8 +191,4 @@ body {
   align-items: center;
   display: flex;
   margin-left: 5%;
-}
-
-.css-git {
-  margin-left: 20%;
 }
