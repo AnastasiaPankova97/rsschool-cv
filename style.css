@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header {
+  height: 5vh;
+  display: flex;
+  width: 100%;
+  font-size: 1.4em;
+  justify-content: end;
+  align-items: center;
+  background-color:chocolate;
+}
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-list > li {
+  list-style-type: none;
+  margin-right: 60px;
+}
+
+.menu-list > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  margin-top: 5px;
+  width: 85vw;
+  font-size: 1.3em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+}
+
+.profile-container {
+  display: flex;
+  width: 100%;
+}
+
+.profile-image {
+  border-radius: 30%;
+}
+
+.profile-block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.name-block {
+  display: flex;
+  font-size: 1.5em;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-name {
+  color: chocolate;
+}
+
+.line-separator {
+  width: 100%;
+  height: 10px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+
+.main-info {
+  display: flex;
+  height: 70%;
+}
+
+.about-me-text {
+  margin: 10px;
+  text-align: center;
+}
+
+.contact-list > li {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: mediumblue;
+}
+
+.educations-list {
+  margin-top: 5px;
+}
+
+.educations-list > li {
+  margin-left: 10px;
+}
+
+.skills {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills ul {
+  margin-left: 8%;
+}
+
+.skills > div {
+  flex: 1 1 0;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.english-lvl-block > p {
+  margin: 10px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: peachpuff;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.about-me ul {
+  margin-left: 8%;
+}
+
+.about-me > div {
+  flex: 1 1 0;
+}
+
+.about-me h2 {
+  text-align: center;
+  background-color: chocolate;
+}
+
+.table-skills {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5vh;
+  margin-top: auto;
+  background-color: chocolate;
+}
+
+.link-git {
+  margin-left: 15%;
+}
+
+.link-git > a {
+  text-decoration: none;
+  color: black;
+}
+
+.img-rss {
+  margin-right: 5%;
+}
+
+.img-rss svg {
+  width: 50px;
+  height: 50px;
+}
+
+.group {
+  align-items: center;
+  display: flex;
+  margin-left: 5%;
+}
+
+.css-git {
+  margin-left: 20%;
+}
