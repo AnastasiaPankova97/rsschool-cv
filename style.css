@@ -77,6 +77,11 @@ body {
   display: flex;
 }
 
+.portfolio-block a {
+  text-decoration: none;
+  color: mediumblue;
+}
+
 .first-name {
   color: chocolate;
 }
